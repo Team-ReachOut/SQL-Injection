@@ -15,7 +15,9 @@
 4. To delete the entire table, use the query :- `' UNION DROP TABLE USERS --;`.
 
 5. For prevention of this, we can use the function :- `mysql_real_escape_string()`. Adding these 2 lines will remove the special characters from input.
+<br>
 `$Fname = mysqli_real_escape_string($conn, $Fname);`
+<br>
 `$Password = mysqli_real_escape_string($conn, $Password);`
 
 ## Screenshots
